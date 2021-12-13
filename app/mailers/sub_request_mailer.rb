@@ -18,7 +18,7 @@ class SubRequestMailer < ApplicationMailer
     @sub_request = sub_request
     @dj = @sub_request.episode.dj
 
-    mail to: 'Radio Free Ann Arbor <rfaa-mod@umich.edu>',
+    mail to: 'Radio Free Ann Arbor <wcbn-announce@umich.edu>',
          subject: "#{@sub_request.episode.dj} needs a sub #{@sub_request.for}!"
   end
 
