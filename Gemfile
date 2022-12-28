@@ -25,7 +25,7 @@ gem 'newrelic_rpm', group: :production
 gem 'sentry-raven'
 # File Storage
 gem 'aws-sdk-s3', require: false
-#gem 'mini_magick'
+gem 'mini_magick'
 # SSH
 gem 'net-ssh'
 
