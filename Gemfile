@@ -6,7 +6,7 @@ source 'https://rubygems.org'
 # Infrastructure #
 ##################
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.1'
+gem 'rails', '~> 6.1.3.2'
 # Heroku needs 12factor for logs and assets
 gem 'rails_12factor', group: :production
 # Use postgresql as the database for Active Record
@@ -25,9 +25,12 @@ gem 'newrelic_rpm', group: :production
 gem 'sentry-raven'
 # File Storage
 gem 'aws-sdk-s3', require: false
-gem 'mini_magick'
+#gem 'mini_magick'
 # SSH
 gem 'net-ssh'
+
+#gem 'mimemagic', '~> 0.3.10'
+#gem 'mimemagic', github: 'mimemagicrb/mimemagic', ref: '01f92d86d15d85cfd0f20dabd025dcbd36a8a60f'
 
 #########
 # Other #
